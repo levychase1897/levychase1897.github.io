@@ -1,0 +1,21 @@
+// Area of a rectangle
+//String
+// class = Area*/
+public class Area {
+  
+  	public static void main(String[] dims) {
+    
+     // string values length and width//  
+      String length = "5";
+      
+      String width = "5";
+  //convertion from string to integer//    
+  float x = Float.parseFloat(length);
+   float y = Float.parseFloat(width);
+       
+     //print out of area L * W in inches//
+      
+      System.out.println(x*y + " inches");
+    }
+
+}
